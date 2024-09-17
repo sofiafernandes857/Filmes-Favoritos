@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8CB9BD; /* Fundo principal */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo do container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* Sombra interna para profundidade */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Cor do botão adicionar */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave na mudança de cor */
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor mais escura ao passar o mouse */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff; /* Fundo dos itens da lista */
+    color: #333333;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra para profundidade */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.content span {
+    margin-right: 10px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: filter 0.3s; /* Transição suave no hover */
+}
+
+img:hover {
+    filter: brightness(1.2); /* Aumenta o brilho no hover */
+}
+
+.remove-btn {
+    padding: 5px 10px;
+    background-color: #e74c3c; /* Cor do botão de remover */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b; /* Cor mais escura ao passar o mouse */
+}
