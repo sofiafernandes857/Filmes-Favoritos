@@ -3,6 +3,8 @@
 
 Esse é um projeto desenvolvido para o checkpoint 4 da disciplina de Web Development. Foi desenvolvido uma página para adicionar e favoritar os seus filmes preferidos utilizando Java Script, HTML e CSS. 
 O objetivo era contruir uma página funcional que o usuário pudesse adicionar, favoritar ou remover filmes. 
+### Git Pages:
+https://sofiafernandes857.github.io/Filmes-Favoritos
 
 ## Stack utilizada
 
